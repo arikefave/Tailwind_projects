@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Header 1</title>
+  </head>
+  <body class="py-[1rem] px-[5rem]">
+    <header>
+      <nav
+        class="flex align-center justify-between sm:px-1 py-[2rem] px-[5rem]"
+      >
+        <span class="text-[#1E0E62] text-2xl font-bold tracking-tight"
+          >Startup 3</span
+        >
+        <ul
+          class="flex lg:flex gap-x-[50px] text-[#15143966] text-lg font-medium hidden lg:block"
+        >
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Shop</a></li>
+          <i class="bx bx-search"></i>
+        </ul>
+        <div class="flex align-center hidden lg:block">
+          <button class="font-medium text-lg text-[#15143966]">Sign In</button>
+          <button
+            class="bg-[#25DAC5] text-white font-medium text-lg px-6 py-3 ml-5 rounded-[100px]"
+          >
+            Sign Up
+          </button>
+        </div>
+        <div class="block lg:hidden">
+          <i class="bx bx-menu bx-md"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="grid grid-col-1 place-content-center place-items-center">
+      <h1
+        class="font-bold text-5xl md:text-6xl lg:text-7xl text-[#1E0E62] text-center mt-3"
+      >
+        Startup Framework
+      </h1>
+      <p
+        class="w-[90%] md:w-[47%] lg:w-[47%] font-medium text-[#15143966] text-[22px] leading-8 text-center mt-6"
+      >
+        We made it so beautiful and simple. It combines landings, pages, blogs
+        and shop screens. It is definitely the tool you need in your collection!
+      </p>
+      <button
+        class="bg-[#25DAC5] text-white rounded-[100px] px-[25px] py-[13px] mt-14"
+      >
+        Purchase Now for $248
+      </button>
+      <button class="text-[#25DAC5] mt-4">Learn More</button>
+    </main>
+  </body>
+</html>

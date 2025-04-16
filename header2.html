@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Header 2</title>
+  </head>
+  <body class="bg-[#2F1893] text-white py-[1rem] px-[5rem]">
+    <header>
+      <nav
+        class="px-[1rem] lg:flex lg:align-center lg:justify-between lg:py-[2rem] lg:px-[5rem]"
+      >
+        <span class="text-2xl font-bold tracking-tight">Startup 3</span>
+        <ul class="lg:flex align-center justify-center gap-x-5 hidden">
+          <li><a href="#">Subscribe</a></li>
+          <li><a href="#">Features</a></li>
+          <button
+            class="sm:hidden md:hidden lg:block bg-[#482BE7] text-white font-medium text-lg px-6 py-3 ml-5 rounded-[100px]"
+          >
+            Sign Up
+          </button>
+        </ul>
+        <div class="block lg:hidden">
+          <i class="bx bx-menu" style="color: #fff"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="grid grid-col-1 place-content-center place-items-center">
+      <h1
+        class="font-bold text-5xl md:text-6xl lg:text-7xl text-center w-[100%] lg:w-[50%] mt-2"
+      >
+        Let’s make design fast and easy
+      </h1>
+      <p
+        class="w-[90%] md:w-[47%] lg:w-[47%] font-medium text-[22px] leading-8 text-center mt-7"
+      >
+        The most important part of the Startup is the samples. The samples form
+        a set of 25 usable pages you can use as is or you can add new blocks
+        from UI Kit.
+      </p>
+      <div
+        class="mt-9 sm:grid sm:grid-col-1 sm:place-items-center sm:place-content-center sm:gap-x-[10px] md:flex lg:flex"
+      >
+        <input
+          type="email"
+          class="rounded-[100px] bg-transparent border-2 border-solid border-inherit px-6 py-1 md:flex lg:flex"
+          placeholder="Your email"
+        />
+        <button
+          class="bg-[#25DAC5] rounded-[30px] font-semibold leading-[26px] tracking-[-0.25px w] p-5 md:ml-2 lg:ml-2 mx-[70px] my-5"
+        >
+          Send
+        </button>
+      </div>
+      <small class="text-center"
+        >By signing up, you agree to the Terms of Service</small
+      >
+    </main>
+  </body>
+</html>
